@@ -1,0 +1,28 @@
+// header
+
+.header {
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    margin: auto;
+
+    &__logo {
+        text-decoration: none;
+        color: #333;
+        font-size: 1.6rem;
+        font-weight: 700;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: #333;
+        font-size: 1.4rem;
+        font-weight: 500;
+
+        &--active {
+            color: rgb(118, 141, 17);
+        }
+    }
+}

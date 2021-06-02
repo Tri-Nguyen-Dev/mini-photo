@@ -1,0 +1,12 @@
+.banner {
+    background-image: url(../assets/images/orange-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20%;
+
+    &__title {
+        text-align: center;
+        color: #fff;
+        font-size: 4rem;
+    }
+}

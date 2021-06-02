@@ -1,0 +1,23 @@
+.list-photo {
+    margin-top: 40px;
+
+    &__add {
+        text-align: center;
+
+        a {
+            text-decoration: none;
+            padding: 12px 24px;
+            color: #fff;
+            background-color: rgb(118, 141, 17);
+            border-radius: 20px;
+        }
+    }
+
+    &__list {
+        margin-top: 20px;
+
+        .list-photo__list-item {
+            margin-top: 15px;
+        }
+    }
+}
